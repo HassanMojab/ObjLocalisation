@@ -49,7 +49,7 @@ def preparedataset():
 	os.system("mkdir ../data")
         # Splits dataset to 80% for training and 20% validation
         # This cell reads VOC 2012 dataset and save them in .npz files for future
-        VOC2012_npz_files_writter.writting_files(xml_path, destination, percentage=0)
+        VOC2012_npz_files_writter.writting_files(xml_path, destination)
         print("Files are ready!!!")
         
     else:
